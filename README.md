@@ -31,3 +31,15 @@ Yarn Berry 에서 지정된 편집기에 대한 기본 SDK와 설정 생성
 ```bash
 yarn dlx @yarnpkg/sdks vscode
 ```
+
+---
+
+## VSCode Extension
+- ESLint
+- Perttier
+- ZipFS
+- Auto Close Tag / Auto Rename Tag
+- Code Spell Checker
+- GitLens (options)
+
+---
