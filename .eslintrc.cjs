@@ -33,5 +33,18 @@ module.exports = {
     ],
     'import/newline-after-import': ['error', { count: 1 }],
     'no-multiple-empty-lines': ['error', { max: 1 }],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+  },
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
   },
 }

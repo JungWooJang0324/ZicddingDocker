@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+# !! 꼭 읽어볼 것 필요시 더 추가할 내용이 있다면 자유롭게 추가해주세요 :)
+
 ## 프로젝트 설정 순서
 
 1. Yarn Berry 버전 세팅
@@ -35,11 +37,28 @@ yarn dlx @yarnpkg/sdks vscode
 ---
 
 ## VSCode Extension
+
 - ESLint
 - Perttier
 - ZipFS
-- Auto Close Tag / Auto Rename Tag
-- Code Spell Checker
+- PostCSS Language Support
+- Code Spell Checker (options)
+- Auto Close Tag / Auto Rename Tag (options)
+- Comment Anchors (options)
 - GitLens (options)
 
 ---
+
+## CSS Guide
+
+1. px(x) -> rem(o)
+2. CSS-in-JS 사용할 것
+3. 최대한 tailwindcss 에 정의한 class만 사용할 것
+4. 공통적으로 사용할만한 Spacing, Flex, FontStyle 등은 필요 시 추가 후 PR 시 공유(언급)할 것
+
+---
+
+## [참고]
+
+- https://ko.vitejs.dev/guide/
+- https://tailwindcss.com/docs/guides/vite
